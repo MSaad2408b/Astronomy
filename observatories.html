@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Observatories | Cosmic Horizons</title>
+  <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-symbol">✦</span> Cosmic Horizons
+      </a>
+
+      <button class="nav-toggle" id="menuToggle" type="button" aria-label="Toggle navigation menu">
+        <span class="menu-icon">☰</span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories.html">Origins</a></li>
+          <li><a href="planets.html">Planets</a></li>
+          <li><a href="constellations.html">Constellations</a></li>
+          <li><a href="comets.html">Comets</a></li>
+          <li><a href="developments.html">Latest News</a></li>
+          <li><a href="observatories.html" class="active">Observatories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header Section -->
+    <section class="page-header">
+      <div class="header-content">
+        <h1>Top Astronomical Observatories</h1>
+        <p>
+          Explore major ground-based research facilities worldwide. Use the tool below to locate sites relative to your current location.
+        </p>
+      </div>
+    </section>
+
+    <!-- Geolocation Control Tool -->
+    <section class="location-tool-section">
+      <div class="geo-status" id="geo-status">
+        Your location has not been requested yet. Click below to activate the Geolocation API.
+      </div>
+      <div class="action-wrapper">
+        <button type="button" class="btn" id="locate-btn">Locate Me</button>
+      </div>
+    </section>
+
+    <!-- Observatories Grid -->
+    <section class="observatory-grid">
+
+      <!-- 1. Mauna Kea Observatories -->
+      <article class="observatory-card">
+        <header class="card-header">
+          <h3>Mauna Kea Observatories</h3>
+          <span class="location-tag">Big Island of Hawai‘i, USA &bull; ~4,200 m</span>
+        </header>
+        <div class="card-body">
+          <img src="images/mauna-kea.jpg" alt="Mauna Kea Observatories" class="obs-thumb" loading="lazy">
+          <p>
+            One of the world’s premier sites for optical, infrared, and submillimetre astronomy. Home to the twin Keck telescopes, Subaru, Gemini North, and CFHT.
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=19.8207,-155.4681&z=12&output=embed"
+              allowfullscreen
+              loading="lazy"
+              title="Map of Mauna Kea Observatories">
+            </iframe>
+          </div>
+          <p class="coords-metadata">Coordinates: 19.8207° N, 155.4681° W</p>
+        </div>
+      </article>
+
+      <!-- 2. Paranal Observatory -->
+      <article class="observatory-card">
+        <header class="card-header">
+          <h3>Paranal Observatory (VLT)</h3>
+          <span class="location-tag">Atacama Desert, Chile &bull; ~2,635 m</span>
+        </header>
+        <div class="card-body">
+          <img src="images/paranal.jpg" alt="Paranal Observatory Very Large Telescope" class="obs-thumb" loading="lazy">
+          <p>
+            Operated by the European Southern Observatory (ESO). Features four 8.2 m Unit Telescopes working together as an optical interferometer.
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=-24.6272,-70.4042&z=12&output=embed"
+              allowfullscreen
+              loading="lazy"
+              title="Map of Paranal Observatory">
+            </iframe>
+          </div>
+          <p class="coords-metadata">Coordinates: 24.6272° S, 70.4042° W</p>
+        </div>
+      </article>
+
+      <!-- 3. ALMA Radio Array -->
+      <article class="observatory-card">
+        <header class="card-header">
+          <h3>ALMA Array</h3>
+          <span class="location-tag">Llano de Chajnantor, Chile &bull; ~5,050 m</span>
+        </header>
+        <div class="card-body">
+          <img src="images/alma.jpg" alt="ALMA Radio Antenna Array" class="obs-thumb" loading="lazy">
+          <p>
+            An international radio array observing at millimetre wavelengths to study star-forming regions and the early universe in high resolution.
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=-23.0234,-67.7538&z=12&output=embed"
+              allowfullscreen
+              loading="lazy"
+              title="Map of ALMA Observatory">
+            </iframe>
+          </div>
+          <p class="coords-metadata">Coordinates: 23.0234° S, 67.7538° W</p>
+        </div>
+      </article>
+
+      <!-- 4. Roque de los Muchachos -->
+      <article class="observatory-card">
+        <header class="card-header">
+          <h3>Roque de los Muchachos</h3>
+          <span class="location-tag">La Palma, Canary Islands, Spain &bull; ~2,400 m</span>
+        </header>
+        <div class="card-body">
+          <img src="images/roque-delos-muchachos.jpg" alt="Roque de los Muchachos Observatory" class="obs-thumb" loading="lazy">
+          <p>
+            Home to the 10.4 m Gran Telescopio Canarias (GTC), currently the world’s largest single-aperture optical telescope.
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=28.7636,-17.8947&z=12&output=embed"
+              allowfullscreen
+              loading="lazy"
+              title="Map of Roque de los Muchachos">
+            </iframe>
+          </div>
+          <p class="coords-metadata">Coordinates: 28.7636° N, 17.8947° W</p>
+        </div>
+      </article>
+
+      <!-- 5. Cerro Pachón & Cerro Tololo -->
+      <article class="observatory-card">
+        <header class="card-header">
+          <h3>Cerro Pachón &amp; Cerro Tololo</h3>
+          <span class="location-tag">Coquimbo Region, Chile &bull; ~2,200–2,700 m</span>
+        </header>
+        <div class="card-body">
+          <img src="images/cerro-pachon.jpg" alt="Vera C. Rubin Observatory" class="obs-thumb" loading="lazy">
+          <p>
+            Site of Gemini South, SOAR, and the Vera C. Rubin Observatory conducting the Legacy Survey of Space and Time (LSST).
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=-30.2407,-70.7366&z=11&output=embed"
+              allowfullscreen
+              loading="lazy"
+              title="Map of Cerro Pachón Observatories">
+            </iframe>
+          </div>
+          <p class="coords-metadata">Coordinates: ~30.24° S, 70.74° W</p>
+        </div>
+      </article>
+
+      <!-- 6. Royal Observatory Greenwich -->
+      <article class="observatory-card">
+        <header class="card-header">
+          <h3>Royal Observatory, Greenwich</h3>
+          <span class="location-tag">London, United Kingdom &bull; Sea Level</span>
+        </header>
+        <div class="card-body">
+          <img src="images/greenwich.jpg" alt="Royal Observatory Greenwich" class="obs-thumb" loading="lazy">
+          <p>
+            Founded in 1675 and historical location of the Prime Meridian (0° longitude). Today it operates as a landmark astronomy museum.
+          </p>
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=51.4779,0.0015&z=14&output=embed"
+              allowfullscreen
+              loading="lazy"
+              title="Map of Royal Observatory Greenwich">
+            </iframe>
+          </div>
+          <p class="coords-metadata">Coordinates: 51.4779° N, 0.0015° E</p>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <p>&copy; Cosmic Horizons &middot; Educational Astronomy Site</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planets of the Solar System | Cosmic Horizons</title>
+  <link rel="icon" href="images/favicon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Site Header & Navigation -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-symbol">✦</span> Cosmic Horizons
+      </a>
+
+      <button class="nav-toggle" id="menuToggle" type="button" aria-label="Toggle navigation menu">
+        <span class="menu-icon">☰</span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="categories.html">Origins</a></li>
+          <li><a href="planets.html" class="active">Planets</a></li>
+          <li><a href="constellations.html">Constellations</a></li>
+          <li><a href="comets.html">Comets</a></li>
+          <li><a href="developments.html">Latest News</a></li>
+          <li><a href="observatories.html">Observatories</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Page Header Section -->
+    <section class="page-header">
+      <div class="header-content">
+        <h1>The Eight Planets</h1>
+        <p>
+          Detailed facts: discovery, size, atmosphere, orbital distances, and key characteristics.
+        </p>
+      </div>
+    </section>
+
+    <!-- Planets Detailed List -->
+    <div class="planets-detail-container">
+
+      <!-- Mercury -->
+      <article class="planet-detail-card" id="mercury">
+        <header class="planet-card-header">
+          <img src="images/mercury.jpg" alt="Mercury planet" class="planet-avatar" loading="lazy">
+          <h2>Mercury</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>Known since antiquity (visible to the naked eye)</td></tr>
+            <tr><th>Equatorial Radius</th><td>~2,440 km (0.38 &times; Earth)</td></tr>
+            <tr><th>Atmosphere</th><td>Extremely thin exosphere (oxygen, sodium, hydrogen, helium, potassium)</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~57.9 million km (0.39 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>Varies ~77–222 million km</td></tr>
+            <tr><th>Key Characteristics</th><td>Smallest planet; no moons; extreme temperatures (−173 °C to 427 °C); heavily cratered surface; orbit ~88 Earth days.</td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- Venus -->
+      <article class="planet-detail-card" id="venus">
+        <header class="planet-card-header">
+          <img src="images/venus.jpg" alt="Venus planet" class="planet-avatar" loading="lazy">
+          <h2>Venus</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>Known since antiquity</td></tr>
+            <tr><th>Equatorial Radius</th><td>~6,052 km (0.95 &times; Earth)</td></tr>
+            <tr><th>Atmosphere</th><td>Very dense: ~96% CO₂, sulfuric acid clouds; surface pressure ~92&times; Earth</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~108.2 million km (0.72 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>Varies ~38–261 million km</td></tr>
+            <tr><th>Key Characteristics</th><td>Hottest planet (~462 °C avg); retrograde rotation; day longer than year; no moons; brightest planet in night sky.</td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- Earth -->
+      <article class="planet-detail-card" id="earth">
+        <header class="planet-card-header">
+          <img src="images/earth.jpg" alt="Earth planet" class="planet-avatar" loading="lazy">
+          <h2>Earth</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>N/A – Our home planet</td></tr>
+            <tr><th>Equatorial Radius</th><td>~6,371 km</td></tr>
+            <tr><th>Atmosphere</th><td>~78% nitrogen, 21% oxygen, 1% argon &amp; other trace gases</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~149.6 million km (1 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>—</td></tr>
+            <tr><th>Key Characteristics</th><td>Only known planet with liquid surface water and life; single moon; ~23.4° axial tilt creating seasons.</td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- Mars -->
+      <article class="planet-detail-card" id="mars">
+        <header class="planet-card-header">
+          <img src="images/mars.jpg" alt="Mars planet" class="planet-avatar" loading="lazy">
+          <h2>Mars</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>Known since antiquity</td></tr>
+            <tr><th>Equatorial Radius</th><td>~3,390 km (0.53 &times; Earth)</td></tr>
+            <tr><th>Atmosphere</th><td>Thin: mostly CO₂, with N₂ and Ar; surface pressure &lt;1% of Earth</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~227.9 million km (1.52 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>Varies ~55–400 million km</td></tr>
+            <tr><th>Key Characteristics</th><td>Two moons (Phobos &amp; Deimos); polar ice caps; ancient riverbeds; day length ~24.6 hours; year ~687 Earth days.</td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- Jupiter -->
+      <article class="planet-detail-card" id="jupiter">
+        <header class="planet-card-header">
+          <img src="images/jupiter.jpg" alt="Jupiter planet" class="planet-avatar" loading="lazy">
+          <h2>Jupiter</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>Known since antiquity</td></tr>
+            <tr><th>Equatorial Radius</th><td>~69,911 km (~11 &times; Earth)</td></tr>
+            <tr><th>Atmosphere</th><td>Mostly hydrogen and helium; swirling cloud bands and Great Red Spot</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~778.3 million km (5.2 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>Varies ~590–970 million km</td></tr>
+            <tr><th>Key Characteristics</th><td>Largest planet in solar system; over 90 moons; faint ring system; rapid ~10 hour rotation.</td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- Saturn -->
+      <article class="planet-detail-card" id="saturn">
+        <header class="planet-card-header">
+          <img src="images/saturn.jpg" alt="Saturn planet" class="planet-avatar" loading="lazy">
+          <h2>Saturn</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>Known since antiquity</td></tr>
+            <tr><th>Equatorial Radius</th><td>~58,232 km (~9.4 &times; Earth)</td></tr>
+            <tr><th>Atmosphere</th><td>Mostly hydrogen and helium</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~1,427 million km (9.5 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>Varies ~1.2–1.7 billion km</td></tr>
+            <tr><th>Key Characteristics</th><td>Spectacular ice and rock ring system; extensive moon system (Titan is largest); lowest average density planet.</td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- Uranus -->
+      <article class="planet-detail-card" id="uranus">
+        <header class="planet-card-header">
+          <img src="images/uranus.jpg" alt="Uranus planet" class="planet-avatar" loading="lazy">
+          <h2>Uranus</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>1781 by William Herschel</td></tr>
+            <tr><th>Equatorial Radius</th><td>~25,362 km (~4 &times; Earth)</td></tr>
+            <tr><th>Atmosphere</th><td>Hydrogen, helium, and methane (causes pale cyan hue)</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~2,871 million km (19.2 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>Varies ~2.6–3.2 billion km</td></tr>
+            <tr><th>Key Characteristics</th><td>Ice giant; extreme axial tilt (~98°) causing sideways rotation; 27 known moons; faint dark rings.</td></tr>
+          </table>
+        </div>
+      </article>
+
+      <!-- Neptune -->
+      <article class="planet-detail-card" id="neptune">
+        <header class="planet-card-header">
+          <img src="images/neptune.jpg" alt="Neptune planet" class="planet-avatar" loading="lazy">
+          <h2>Neptune</h2>
+        </header>
+        <div class="table-wrapper">
+          <table class="planet-spec-table">
+            <tr><th>When Discovered</th><td>1846 via mathematical prediction</td></tr>
+            <tr><th>Equatorial Radius</th><td>~24,622 km (~3.9 &times; Earth)</td></tr>
+            <tr><th>Atmosphere</th><td>Hydrogen, helium, and methane</td></tr>
+            <tr><th>Avg. Distance from Sun</th><td>~4,498 million km (30 AU)</td></tr>
+            <tr><th>Distance from Earth</th><td>Varies ~4.3–4.7 billion km</td></tr>
+            <tr><th>Key Characteristics</th><td>Farthest major planet; strongest sustained winds in solar system; 14+ moons (Triton is largest); orbit ~165 Earth years.</td></tr>
+          </table>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <p>&copy; Cosmic Horizons &middot; Educational Astronomy Site</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
